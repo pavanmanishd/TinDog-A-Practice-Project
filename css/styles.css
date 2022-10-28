@@ -21,8 +21,24 @@ h1{
     font-size: 20px;
 }
 .navbar{
-    padding-bottom: 4.5rem;
+    padding: 0 0 4.5rem;
 }
 .nav-item{
     padding: 0px 18px;
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+/* main image */
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+}
+.img{
+    padding-bottom: 8%;
+    color: #fd7f92;
+}
+.img:hover{
+    color: #ff4c68;
 }
