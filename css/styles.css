@@ -10,6 +10,7 @@ h1 {
   line-height: 1.5;
   color: white;
 }
+
 h2 {
   font-family: "Montserrat";
   font-size: 3rem;
@@ -55,16 +56,6 @@ h3 {
   
 }
 
-@media (max-width : 1028px) {
-  #title{
-    text-align: center;
-  }
-  .title-img{
-    height: 80%;
-    position: static;
-    transform: rotate(0);
-  }  
-}
 /*Feautures*/
 #features {
   padding: 7% 15%;
@@ -146,4 +137,71 @@ h3 {
 .footer-row{
   margin-left: 40%;
   margin-right: 40%;
+}
+p{
+  color: gray;
+  font-family: 'Ubuntu';
+  font-size: 20px
+}
+@media (max-width : 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    height: 110%;
+    position: static;
+    transform: rotate(0);
+    padding-bottom: 10%;
+  } 
+   .container-fluid{
+    padding: 7% 5% 7%;
+  }
+  h1{
+    font-size: 500%;
+  }
+  .links {
+    font-family: "Ubuntu";
+    font-size: 50px;
+  }
+  #features {
+    padding: 7% 0% 7%;
+    background-color: white;
+    position: relative;
+    /* z-index: 1; */
+  }
+  h3{
+    font-size: 300%;
+  }
+  p{
+    font-size: 40px;
+  }
+  .test-text {
+    font-family: "Ubuntu";
+    font-size: 3.7rem;
+    line-height: 1.5;
+  }
+  .carousel-item {
+    padding: 7% 7%;
+  }
+  .testimonial-image {
+    width: 20%;
+    margin: 20px;
+  }
+  .signup{
+    font-family: "Ubuntu";
+    font-size: 35px;
+  }
+  .download{
+    font-size: 40px;
+  }
+  .footer-row{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .soc-img{
+    width : 70px;
+  }
+  .footer-text{
+    font-size: 2rem;
+  }
 }
